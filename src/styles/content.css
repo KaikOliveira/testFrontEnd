@@ -1,21 +1,26 @@
+.contentConteiner{
+   position: relative;
+    height: 3000px;
+    width: 1920px;
+    top:1094px;
+    background-color: #bbbec0;
+}
 
-.headerContainer .box {
+ .box {
     position: absolute;
-    width: 1251px;
-    height: 414px;
-    top: 979px;
+    width: 1243px;
+    height: 404px;
+    top: -95px;
     left: 339px;
 
-    background-color: brown;
     display: flex;
     flex-direction: row;
+    background-color: #fff;
 }
 
 .box .items{
-    width: 415px;
+    width: 1241px;
     height: 404px;
-
-    background-color: aquamarine;
 }
 
 .box .items .icon1{
@@ -25,6 +30,25 @@
     left: 20px;
     top: 258px;
 }
+.items .text1 {
+    position: absolute;
+    width: 236px;
+    height: 79px;
+    left: 158px;
+    top: 305px;
+    background-color: #fff;
+}
+
+.items .text1 h2{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+
+    color: #6A6A57;
+}
 
 .box .items .icon2{
     position: absolute;
@@ -32,4 +56,170 @@
     height: 120px;
     left: 430px;
     top: 258px;
+}
+
+.items .text2 {
+    position: absolute;
+    width: 241px;
+    height: 74px;
+    left: 559px;
+    top: 305px;
+    background-color: #fff;
+}
+
+.items .text2 h2{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+
+    color: #6A6A57;
+}
+
+.box .items .icon3{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 850px;
+    top: 258px;
+}
+
+.items .text3 {
+    position: absolute;
+    width: 225px;
+    height: 75px;
+    left: 985px;
+    top: 305px;
+    background-color: #fff;
+}
+
+.items .text3 h2{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+
+    color: #6A6A57;
+}
+
+.contentConteiner .box2 {
+    position: absolute;
+    width: 1241px;
+    height: 654px;
+    left: 339px;
+    top: 390px;
+
+    background-color: #E5E5E5;
+}
+
+.box2 .text .title {
+    position: absolute;
+    width: 422px;
+    height: 76px;
+    left: 56px;
+    top: 58px;
+
+}
+
+.box2 .text .title h2{
+    font-family: Averta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 45px;
+
+    display: flex;
+    align-items: center;
+    color: #FF5E0F;
+}
+
+.box2 .text .content {
+    position: absolute;
+    width: 422px;
+    height: 338px;
+    left: 56px;
+    top:191px;
+}
+
+.box2 .text .content p {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    color: #4F4F40;
+}
+
+.box2 .img{
+    position: absolute;
+    width: 605px;
+    height: 477px;
+    top: 75px;
+    left: 635px;
+
+    background-color:#000;
+}
+
+.img .logo {
+    position: absolute;
+    left: 0px;
+    top:50px;
+}
+.img .fundo {
+    position: static;
+}
+
+.box2 .buttonPlay{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 571px;
+    top: 261px;
+  
+    background-color: #FF5E0F;
+    box-shadow: 0px 22px 80px rgba(29, 27, 24, 0.07), 0px 22.2437px 55.4997px rgba(29, 27, 24, 0.0771599), 0px 23.2607px 48.4373px rgba(29, 27, 24, 0.0756864), 0px 24.6609px 44.6163px rgba(29, 27, 24, 0.0644444), 0px 25.9607px 41.3692px rgba(29, 27, 24, 0.0443511), 0px 26.3799px 36.8572px rgba(29, 27, 24, 0.0210201), 0px 24.0804px 28.1652px rgba(29, 27, 24, 0.00397918);
+    border-radius: 50px;
+}
+
+.box2 .buttonPlay img{
+    position: absolute;
+    top: 41px;
+    left: 42px;
+}
+
+.box2 .buttonSaiba {
+    position: absolute;
+    width: 150px;
+    height: 49px;
+    left: 56px;
+    top: 566px;
+
+    background: #FF5E0F;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.box2 .buttonSaiba h2{
+    position: relative;
+    font-family: Averta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+ 
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
 }
