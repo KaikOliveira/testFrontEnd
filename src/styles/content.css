@@ -1,0 +1,35 @@
+
+.headerContainer .box {
+    position: absolute;
+    width: 1251px;
+    height: 414px;
+    top: 979px;
+    left: 339px;
+
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+}
+
+.box .items{
+    width: 415px;
+    height: 404px;
+
+    background-color: aquamarine;
+}
+
+.box .items .icon1{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 20px;
+    top: 258px;
+}
+
+.box .items .icon2{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 430px;
+    top: 258px;
+}
