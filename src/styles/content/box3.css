@@ -1,0 +1,83 @@
+.contentConteiner .box3 {
+    position: absolute;
+    background-color: #E5E5E5;
+    width: 1399px;
+    height: 779.46px;
+
+    left: 181px;
+    top: 1042px;
+}
+
+.box3 .img{
+    position: absolute;
+    width: 1042.16px;
+    height: 779.46px;
+}
+
+.box3 .title{
+    position: absolute;
+    width: 500px;
+    height: 133px;
+    top:257px;
+    right: 0px;
+}
+
+.box3 .title h1{
+    font-family: Averta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    color: #FFBF3F;
+}
+
+.box3 .sub{
+    position: absolute;
+    width: 500px;
+    height: 52px;
+
+    right: 0px;
+    top: 411px;
+}
+
+.box3 .sub h2{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    color: #6A6A57;
+}
+
+.box3 .button {
+    position: absolute;
+    width: 202px;
+    height: 49px;
+    top: 498px;
+    right: 297px;
+    background: #FFBF3F;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.box3 .button h2{
+    position: relative;
+    font-family: Averta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+ 
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
