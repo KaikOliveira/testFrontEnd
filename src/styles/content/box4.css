@@ -1,0 +1,424 @@
+.contentConteiner .box4 {
+    position: absolute;
+    width: 1772px;
+    height: 546px;
+
+    top: 1822px;
+    left: 339px;
+}
+
+.box4 .content1{
+    position: absolute;
+    width:684px;
+    height: 546px;
+
+    background: #4698CA;
+}
+
+.content1 .title{
+    position: absolute;
+    width:394px;
+    height: 84px;
+    top: 128px;
+    left: 62px;
+}
+
+.content1 .title h1{
+    font-family: Averta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 45px;
+
+    display: flex;
+    align-items: center;
+    color: #FFBF3F;
+}
+
+.content1 .sub{
+    position: absolute;
+    width: 394px;
+    height: 104px;
+    left: 62px;
+    top:226px;
+}
+
+.content1 .sub h2{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.content1 .items{
+    position: absolute;
+    width: 1051px;
+    height: 456px;
+
+    top: 55px;
+    left: 530px;
+}
+
+.items .item1{
+    position: absolute;
+    width: 288px;
+    height: 421px;
+    left: 0px;
+    background-color: #E0E0E0;
+}
+
+.item1 .img{
+    position: absolute;
+    width:288px;
+    height: 187px;
+    top: 0;
+    left: 0;
+}
+
+.item1 .title{
+    position: absolute;
+    width: 250px;
+    height: 68px;
+    top: 208px;
+    left: 19px;
+}
+
+.item1 .title h1{
+    font-family: Averta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 23px;
+
+    color: #4698CA;
+}
+
+.item1 .sub{
+    position: absolute;
+    width: 249px;
+    height: 61px;
+    top: 290px;
+    left: 19px;
+}
+
+.item1 .sub h2{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.03em;
+    color: #6A6A57;
+}
+
+.item1 .button{
+    position: absolute;
+    width: 135px;
+    height: 35px;
+    top: 366px;
+    left: 16px;
+
+    background-color:#fff;
+
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box; 
+    display: flex;
+    justify-content: center;
+}
+
+.item1 .button:hover{
+    background-color:#4F4F40;
+    color: #E0E0E0;
+    border-color: #000;
+}
+.item1 .button h1:hover{
+    color: #E0E0E0;
+}
+
+.item1 .button h1{
+    position: relative;
+    font-family: Averta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    align-items: center;
+    text-align: center;
+
+    letter-spacing: 0.03em;
+    color: #4F4F40;
+    display: flex;
+}
+
+.items .item2{
+    position: absolute;
+    width: 288px;
+    height: 421px;
+    left: 318px;
+}
+
+.item2 .title{
+    position: absolute;
+    width: 250px;
+    height: 68px;
+    top: 208px;
+    left: 19px;
+}
+
+.item2 .title h1{
+    font-family: Averta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 23px;
+
+    color: #4698CA;
+}
+
+.item2 .sub{
+    position: absolute;
+    width: 249px;
+    height: 61px;
+    top: 290px;
+    left: 19px;
+}
+
+.item2 .sub h2{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.03em;
+    color: #6A6A57;
+}
+
+
+.item2 .button{
+    position: absolute;
+    width: 135px;
+    height: 35px;
+    top: 366px;
+    left: 16px;
+
+    background-color:#fff;
+
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box; 
+    display: flex;
+    justify-content: center;
+}
+
+.item2 .button:hover{
+    background-color:#4F4F40;
+    color: #E0E0E0;
+    border-color: #000;
+}
+.item2 .button h1:hover{
+    color: #E0E0E0;
+}
+
+.item2 .button h1{
+    position: relative;
+    font-family: Averta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    align-items: center;
+    text-align: center;
+
+    letter-spacing: 0.03em;
+    color: #4F4F40;
+    display: flex;
+}
+
+.items .item3{
+    position: absolute;
+    width: 425px;
+    height: 456px;
+    left: 626px;
+
+    background: linear-gradient(270deg, #FAFAF8 6.82%, rgba(255, 255, 255, 0) 100%);
+}
+.item3 .prox {
+    background: linear-gradient(270deg, #FAFAF8 6.82%, rgba(255, 255, 255, 0) 100%);
+}
+.item3 .contentInteiro .img{
+    position: absolute;
+    width:288px;
+    height: 187px;
+    top: 0;
+    left: 0;
+}
+
+.item3 .contentInteiro .title{
+    position: absolute;
+    width: 250px;
+    height: 68px;
+    top: 208px;
+    left: 19px;
+}
+
+.item3 .contentInteiro .title h1{
+    font-family: Averta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 23px;
+
+    color: #4698CA;
+}
+
+.item3 .contentInteiro .sub{
+    position: absolute;
+    width: 249px;
+    height: 61px;
+    top: 290px;
+    left: 19px;
+}
+
+.item3 .contentInteiro .sub h2{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.03em;
+    color: #6A6A57;
+}
+
+
+.item3 .contentInteiro .button{
+    position: absolute;
+    width: 135px;
+    height: 35px;
+    top: 366px;
+    left: 16px;
+
+    background-color:#fff;
+
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box; 
+    display: flex;
+    justify-content: center;
+}
+
+.item3 .contentInteiro .button:hover{
+    background-color:#4F4F40;
+    color: #E0E0E0;
+    border-color: #000;
+}
+.item3 .contentInteiro .button h1:hover{
+    color: #E0E0E0;
+}
+
+.item3 .contentInteiro .button h1{
+    position: relative;
+    font-family: Averta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    align-items: center;
+    text-align: center;
+
+    letter-spacing: 0.03em;
+    color: #4F4F40;
+    display: flex;
+}
+
+.item3 .prox .img{
+    position: relative;
+    width:288px;
+    height: 187px;
+    top: 0;
+    left: 310px;
+}
+
+.item3 .prox .title{
+    position: absolute;
+    width: 250px;
+    height: 68px;
+    top: 208px;
+    left: 329px;
+}
+
+.item3 .prox .title h1{
+    font-family: Averta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 23px;
+
+    color: #4698CA;
+}
+
+.item3 .prox .sub{
+    position: absolute;
+    width: 249px;
+    height: 61px;
+    top: 290px;
+    left: 329px;
+}
+
+.item3 .prox .sub h2{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.03em;
+    color: #6A6A57;
+}
+
+
+.item3 .prox .button{
+    position: absolute;
+    width: 135px;
+    height: 35px;
+    top: 366px;
+    left: 326px;
+
+    background-color:#fff;
+
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box; 
+    display: flex;
+    justify-content: center;
+}
+
+.item3 .prox .button:hover{
+    background-color:#4F4F40;
+    color: #E0E0E0;
+    border-color: #000;
+}
+.item3 .prox .button h1:hover{
+    color: #E0E0E0;
+}
+
+.item3 .prox .button h1{
+    position: relative;
+    font-family: Averta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    align-items: center;
+    text-align: center;
+
+    letter-spacing: 0.03em;
+    color: #4F4F40;
+    display: flex;
+}
+
+.content1 .items .item3 .icon{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 172px;
+    left: 277px;
+}
