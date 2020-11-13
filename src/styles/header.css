@@ -4,12 +4,12 @@
     height: 986px;
     left: 0px;
     top: 0px;
-    background-color: #3286C3;
+    background-color: #050626;
 }
 .headerContainer .thumb{
     position: absolute;
     height: 765px;
-    
+    background: linear-gradient(180deg, #050626 0%, rgba(2, 2, 15, 0.381395) 21.83%, rgba(0, 1, 4, 0.0988803) 45.62%, rgba(0, 0, 0, 0) 57.12%);
 }
 .headerContainer .thumb img{
     position: absolute;
@@ -17,7 +17,7 @@
     height: 1200px;
     left: 0px;
     top: -170px;
-    background: linear-gradient(180deg, #050626 0%, rgba(2, 2, 15, 0.381395) 21.83%, rgba(0, 1, 4, 0.0988803) 45.62%, rgba(0, 0, 0, 0) 57.12%);
+    
     opacity: 8.58;
 }
 
@@ -27,10 +27,8 @@
     height: 104px;
     left: 0px;
     top: 0px;
-    background-color: cornflowerblue;
     flex-direction: row;
-    display: flex;
-    
+    display: flex;  
     align-self: center;
 }
 
@@ -49,7 +47,33 @@
     top: 32px;
     left: 1500px;
 
-    background-color: #050626;
+    border: 1px solid #626262;
+    box-sizing: border-box;
+}
+
+.headerContainer .headerMenu .idioma .iconIdioma {
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    left: 49px;
+    top: 9px;
+}
+
+.headerContainer .headerMenu .idioma h2{
+    position: absolute;
+    width:20px;
+    height: 16px;
+    top: 13.5px;
+    left: 19px;
+
+    font-family: Averta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
 }
 
 .headerContainer .headerMenu .nav {
@@ -59,21 +83,32 @@
     height: 49px;
 
     left: 607px;
-    top: 27px;
+    top: 39px;
 }
 
-.headerContainer .headerMenu .nav .logoP{
+.headerContainer .headerMenu .nav .lista{
     position: absolute;
-    top: 12px;
-    left: 358px;
+    width: 500px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction:row;
 }
 
-.headerContainer .headerMenu .nav ul li{
+.headerContainer .headerMenu .nav .lista ul{
+    width: 500px;
+    display: flex;
+    position: absolute;
     flex-direction: row;
-    list-style: none;
+    justify-content: space-between;
 }
 
-.headerContainer .headerMenu .nav ul li h2{
+.headerContainer .headerMenu .nav .lista ul li{ 
+    list-style: none; 
+}
+
+.headerContainer .headerMenu .nav .lista ul li h2{
     font-family: PT Sans;
     font-style: normal;
     font-weight: normal;
@@ -94,7 +129,7 @@
 
     position: absolute;
     left: 559px;
-    
+    top: -10px;
     width: 202px;
     height:49px;
 
