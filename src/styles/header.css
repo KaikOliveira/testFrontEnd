@@ -1,0 +1,250 @@
+.headerContainer{
+    position: absolute;
+    width: 1920px;
+    height: 986px;
+    left: 0px;
+    top: 0px;
+    background-color: #3286C3;
+}
+.headerContainer .thumb{
+    position: absolute;
+    height: 765px;
+    
+}
+.headerContainer .thumb img{
+    position: absolute;
+    width: 1920px;
+    height: 1200px;
+    left: 0px;
+    top: -170px;
+    background: linear-gradient(180deg, #050626 0%, rgba(2, 2, 15, 0.381395) 21.83%, rgba(0, 1, 4, 0.0988803) 45.62%, rgba(0, 0, 0, 0) 57.12%);
+    opacity: 8.58;
+}
+
+.headerContainer .headerMenu{
+    position: absolute;
+    width: 1920px;
+    height: 104px;
+    left: 0px;
+    top: 0px;
+    background-color: cornflowerblue;
+    flex-direction: row;
+    display: flex;
+    
+    align-self: center;
+}
+
+.headerContainer .headerMenu .logoP{
+    position: absolute;
+    width: 119px;
+    height: 80px;
+    left: 359px;
+    top: 12px;
+}
+
+.headerContainer .headerMenu .idioma{
+    position: absolute;
+    width: 81px;
+    height: 43px;
+    top: 32px;
+    left: 1500px;
+
+    background-color: #050626;
+}
+
+.headerContainer .headerMenu .nav {
+    display:flex;
+    position: absolute;
+    width: 761px;
+    height: 49px;
+
+    left: 607px;
+    top: 27px;
+}
+
+.headerContainer .headerMenu .nav .logoP{
+    position: absolute;
+    top: 12px;
+    left: 358px;
+}
+
+.headerContainer .headerMenu .nav ul li{
+    flex-direction: row;
+    list-style: none;
+}
+
+.headerContainer .headerMenu .nav ul li h2{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+    align-self: center;
+}
+
+.headerContainer .headerMenu .nav .buttonNav {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 26px;
+
+    position: absolute;
+    left: 559px;
+    
+    width: 202px;
+    height:49px;
+
+    background: #FFFFFF;
+    border-radius: 40px;
+    align-self: center;
+}
+
+.headerContainer .headerMenu .nav .buttonNav h2{      
+    font-family: Averta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 17px;
+
+    position: static;
+    width: 150px;
+    height: 17px;
+    left: calc(50% - 150px/2);
+    top: calc(50% - 17px/2);
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+
+    color: #317CAA;
+}
+
+.headerContainer .rectangleHeader{
+    position: absolute;
+    width: 1920px;
+    height: 343px;
+    top: 750px;
+
+    background-color: #3286C3;
+}
+
+.headerContainer .rectangleHeader .rectangleText1{
+    position: absolute;
+    width: 607px;
+    height: 150px;
+    
+    left: 339px;
+    top: 40px;
+}
+
+.headerContainer .rectangleHeader .rectangleText1 h1{
+    color: #Fff;
+
+    font-family: Averta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 49px;  
+}
+
+.headerContainer .rectangleHeader .rectangleText2 {
+    position: absolute;
+    width: 238px;
+    height: 104px;
+    left: 975px;
+    top: 63px;
+}
+
+.headerContainer .rectangleHeader .rectangleText2 h2 {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    
+    letter-spacing: 0.03em;
+
+    color: #051339;
+}
+
+.headerContainer .rectangleHeader .buttonConheca {
+    position: absolute;
+    width: 182px;
+    height: 158px;
+    left: 1398px;
+    top: 36px;
+
+    background: #2E7BB2;
+    border-radius: 8px;
+
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: column;
+}
+
+.headerContainer .rectangleHeader .buttonConheca .buttonText {
+    position: absolute;
+    width: 84px;
+    height: 52px;
+    top: 78px;
+    left: 49px;
+    right: 49px;
+    bottom:28px;
+}
+
+.headerContainer .rectangleHeader .buttonConheca .buttonText h1{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 26px;
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color:#fff;
+}
+
+.headerContainer .rectangleHeader .buttonConheca .icon img{
+    width: 10px;
+    height: 17px;
+
+    position: absolute;
+    left: 85px;
+    right: 85px;
+    top: 40px;
+    bottom: 100px;
+
+}
+
+/*
+    position: absolute;
+    width: 1920px;
+    height: 765px;
+    left: 0px;
+    top: -170px;
+    
+
+    font-family: Averta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+
+    position: static;
+    display: flex;
+    left: calc(50% - 150px/2);
+    top: calc(50% - 17px/2);
+
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #317CAA;
+*/
