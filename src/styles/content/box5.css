@@ -1,0 +1,68 @@
+.contentConteiner .box5{
+    position: absolute;
+    width: 1901px;
+    height: 321px;
+    top:2468px;
+    left: 210px;
+}
+
+.box5 .fundo {
+    position: absolute;
+    width: 361px;
+    height: 320.84;
+    opacity: 0.6;
+}
+
+.box5 .icon {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 24px;
+    left: 187px;
+}
+
+.box5 .title {
+    position: absolute;
+    width: 393px;
+    height: 134px;
+    top:94px;
+    left: 191px;
+}
+.box5 .title h1{
+    font-family: Averta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 45px;
+    
+    display: flex;
+    align-items: center;
+    color: #606395;
+}
+
+.box5 .sub{
+    position: absolute;
+    width: 393px;
+    height: 23px;
+    top: 239px;
+    left: 191px;
+}
+.box5 .sub h2{
+    font-family: Averta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 23px;
+    color: #E31C79;
+}
+
+.box5 .images{
+    position: absolute;
+    width: 1242px;
+    height: 288px;
+    top: 33px;
+    left: 659px;
+}
+.box5 .images img{
+    padding-right: 30px;
+}
