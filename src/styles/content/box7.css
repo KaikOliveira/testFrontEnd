@@ -1,0 +1,55 @@
+.contentConteiner .box7 {
+    position: absolute;
+    width: 1920px;
+    height: 520px;
+    top: 3587px;
+
+    background-color: #404040;
+}
+
+.box7 .description{
+    position: absolute;
+    width: 422px;
+    height: 223px;
+    top: 104px;
+    left: 395px;
+
+    background-color: aquamarine;
+}
+.box7 .description .title{
+    position: absolute;
+    width: 422px;
+    height: 48px;
+    top: 0px;
+    left: 0px;
+
+    background-color: bisque;
+}
+.box7 .description .title h1{
+    font-family: Averta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 45px;
+
+    color: #FA4616;
+}
+.box7 .description .sub{
+    position: absolute;
+    width: 422px;
+    height: 78px;
+    top: 61px;
+    left: 0px;
+
+    background-color: azure;
+}
+.box7 .description .sub h2{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    
+    letter-spacing: 0.03em;
+    color: #6A6A57;
+}
