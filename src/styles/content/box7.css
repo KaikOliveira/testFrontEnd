@@ -3,8 +3,7 @@
     width: 1920px;
     height: 520px;
     top: 3587px;
-
-    background-color: #404040;
+    background-color: #E5E5E5;
 }
 
 .box7 .description{
@@ -13,8 +12,6 @@
     height: 223px;
     top: 104px;
     left: 395px;
-
-    background-color: aquamarine;
 }
 .box7 .description .title{
     position: absolute;
@@ -22,8 +19,6 @@
     height: 48px;
     top: 0px;
     left: 0px;
-
-    background-color: bisque;
 }
 .box7 .description .title h1{
     font-family: Averta;
@@ -40,8 +35,6 @@
     height: 78px;
     top: 61px;
     left: 0px;
-
-    background-color: azure;
 }
 .box7 .description .sub h2{
     font-family: PT Sans;
@@ -52,4 +45,36 @@
     
     letter-spacing: 0.03em;
     color: #6A6A57;
+}
+.box7 .description .button{
+    position: absolute;
+    width: 208px;
+    height: 49px;
+    top: 174px;
+    left: 0px;
+    background: #FFFFFF;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.box7 .description .button p{
+    position: absolute;
+    left: 26px;
+    font-family: Averta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #FF7F41;
+}
+.box7 .img{
+    position: absolute;
+    width: 440px;
+    height: 463px;
+    top: 24px;
+    right: 478px;
 }
