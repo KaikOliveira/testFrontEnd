@@ -1,0 +1,416 @@
+.contentConteiner .box6{
+    position: absolute;
+    width: 1280px;
+    height: 603px;
+    top: 2890px;
+    left: 315px;
+}
+
+.box6 .title {
+    position: absolute;
+    width: 394px;
+    height: 84px;
+    left: 448px;
+    top: 5px;
+    display: flex;
+}
+.box6 .title p{
+    position: absolute;
+    left: 22px;
+    font-family: Averta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 45px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #78BE21;
+}
+
+.box6 .sub{
+    position: absolute;
+    width: 818px;
+    height: 52px;
+    top: 99px;
+    left: 236px;
+}
+.box6 .sub h2{
+    position: absolute;
+    left: 90px;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #6A6A57;
+}
+
+.box6 .boxButtons{
+    position: absolute;
+    width: 582px;
+    height: 36px;
+    left: 358px;
+    top: 171px;
+}
+.boxButtons .button1 {
+    position: absolute;
+    width: 164px;
+    height: 34px;
+
+    background: #78BE21;
+    box-shadow: 0px 5px 14px rgba(7, 206, 110, 0.34);
+    border-radius: 20px;
+}
+.boxButtons .button1 h2{
+    position: absolute;
+    right: 29px;
+    top: 8.5px;
+    font-family: Averta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #FFF;
+}
+.boxButtons .button1 .icon{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 5px;
+    left: 27px;
+}
+.boxButtons .button2 {
+    position: absolute;
+    width: 164px;
+    height: 34px;
+    left: 192px;
+
+    background-color: #e5e5e5;
+    border: 1px solid #78BE21;
+    box-sizing: border-box;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.boxButtons .button2 h2{
+    position: absolute;
+    right: 29px;
+    top: 8.5px;
+    font-family: Averta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #78BE21;
+}
+.boxButtons .button2 .icon{
+    position: absolute;
+    left: 27px;
+    top: 5px;
+}
+
+.boxButtons .button3 {
+    position: absolute;
+    width:187px;
+    height: 34px;
+    right: 0px;
+
+    background-color: #e5e5e5;
+    border: 1px solid #78BE21;
+    box-sizing: border-box;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.boxButtons .button3 h2{
+    position: absolute;
+    top: 8.5px;
+    right: 29px;
+    font-family: Averta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #78BE21;
+}
+.boxButtons .button3 .icon{
+    position: absolute;
+    top: 5px;
+    left: 26px;
+}
+
+.box6 .boxImages {
+    position: absolute;
+    width: 1250px;
+    height: 368px;
+    left: 15px;
+    bottom: 0px;
+}
+.boxImages .item1 {
+    position: absolute;
+    width: 288px;
+    height: 366px;
+    left: 2px;
+}
+.boxImages .item1 img{
+    width: 288px;
+    height: 288px;
+}
+.boxImages .item1  .name {
+    position: absolute;
+    width: 233px;
+    height: 30px;
+    left: 31px;
+    top: 298px;
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.boxImages .item1  .name h1{
+    display: flex;
+    font-family: Averta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 23px;
+    text-align: center;
+    align-items: center;
+    color: #78BE21;
+}
+.boxImages .item1 .description{
+    position: absolute;
+    width: 233px;
+    height: 30px;
+    top: 328px;
+    left: 31px;
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.boxImages .item1 .description h3{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #6A6A57;
+}
+
+.boxImages .item2 {
+    position: absolute;
+    width: 288px;
+    height: 366px;
+    left: 322px;
+
+}
+.boxImages .item2 img{
+    width: 288px;
+    height: 288px;
+}
+.boxImages .item2  .name {
+    position: absolute;
+    width: 233px;
+    height: 30px;
+    left: 31px;
+    top: 298px;
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.boxImages .item2  .name h1{
+    display: flex;
+    font-family: Averta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 23px;
+    text-align: center;
+    align-items: center;
+    color: #78BE21;
+}
+.boxImages .item2 .description{
+    position: absolute;
+    width: 233px;
+    height: 30px;
+    top: 328px;
+    left: 31px;
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.boxImages .item2 .description h3{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #6A6A57;
+}
+
+.boxImages .item3 {
+    position: absolute;
+    width: 288px;
+    height: 366px;
+    left: 640px;
+}
+.boxImages .item3 img{
+    width: 288px;
+    height: 288px;
+}
+.boxImages .item3  .name {
+    position: absolute;
+    width: 233px;
+    height: 30px;
+    left: 31px;
+    top: 298px;
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.boxImages .item3  .name h1{
+    display: flex;
+    font-family: Averta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 23px;
+    text-align: center;
+    align-items: center;
+    color: #78BE21;
+}
+.boxImages .item3 .description{
+    position: absolute;
+    width: 233px;
+    height: 30px;
+    top: 328px;
+    left: 31px;
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.boxImages .item3 .description h3{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #6A6A57;
+}
+
+.boxImages .item4 {
+    position: absolute;
+    width: 288px;
+    height: 366px;
+    left: 958px;
+}
+.boxImages .item4 img{
+    width: 288px;
+    height: 288px;
+}
+.boxImages .item4  .name {
+    position: absolute;
+    width: 233px;
+    height: 30px;
+    left: 31px;
+    top: 298px;
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.boxImages .item4  .name h1{
+    display: flex;
+    font-family: Averta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 23px;
+    text-align: center;
+    align-items: center;
+    color: #78BE21;
+}
+.boxImages .item4 .description{
+    position: absolute;
+    width: 233px;
+    height: 30px;
+    top: 328px;
+    left: 31px;
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.boxImages .item4 .description h3{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #6A6A57;
+}
+
+.boxImages .navLeft {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: -24px;
+    top: 119px;
+}
+.boxImages .navRight {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: -24px;
+    top: 119px;
+}
