@@ -1,0 +1,164 @@
+.footer{
+    width: 1920px;
+    height: 984px;
+    position: absolute;
+    top: 5205px;
+    background-color: #012765;
+
+}
+
+.footer .footerTop{
+    position: absolute;
+    width: 1920px;
+    height: 180px;
+    top: 0px;
+    background-color: #03257E;
+}
+.footer .footerMid{
+    position: absolute;
+    width: 1920px;
+    height: 634px;
+    top: 182px;
+}
+.footer .footerBottom{
+    position: absolute;
+    width: 1920px;
+    height: 90px;
+    top: 816px;
+    background-color: cornflowerblue;
+}
+
+.footerTop .img{
+    position: absolute;
+    width: 516px;
+    height: 257px;
+    top: 15px;
+    left: 0px;
+}
+.footerTop .text{
+    position: absolute;
+    width: 320px;
+    height: 46px;
+    top: 67px;
+    left: 395px;
+}
+.footerTop .text h2{
+    font-family: Averta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+}
+.footerTop .box {
+    position: absolute;
+    width: 800px;
+    height: 79px;
+    top: 46px;
+    left: 805px;
+    background: #03257E;
+}
+.box .email h2{
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    font-family: Averta;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #E9ECEF;
+}
+.box .email input{
+    position: absolute;
+    width: 255px;
+    height: 49px;
+    top: 30px;
+    left: 2px;
+
+    border: 1px solid #E9ECEF;
+    box-sizing: border-box;
+    background: #03257E;
+}
+
+.box .name h2{
+    position: absolute;
+    left: 270px;
+    top: 2px;
+    font-family: Averta;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #E9ECEF;
+}
+.box .name input{
+    position: absolute;
+    width: 255px;
+    height: 49px;
+    top: 30px;
+    left: 270px;
+
+    border: 1px solid #E9ECEF;
+    box-sizing: border-box;
+    background: #03257E;
+}
+.box .button{
+    position: absolute;
+    width: 224px;
+    height: 49px;
+    bottom: 0px;
+    right: 0px;
+    background: #FFFFFF;
+    border-radius: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box .button h2{
+    font-family: Averta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #03257E;
+}
+.footerMid .description {
+    position: absolute;
+    width: 394px;
+    height: 534px;
+    left: 346px;
+    bottom: 2px;
+}
+.description .logo{
+    position: absolute;
+    width: 184px;
+    height: 124px;
+}
+.description .text{
+    position: absolute;
+    width: 289px;
+    height: 75px;
+    bottom :304px;
+}
+.description .text h2{
+    font-family: Averta;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
