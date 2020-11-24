@@ -1,19 +1,19 @@
 .headerContainer{
     position: absolute;
-    width: 1920px;
+    width: 100vw;
+    max-width: 1580px;
     height: 986px;
     left: 0px;
     top: 0px;
     background-color: #050626;
 }
-.headerContainer .thumb{
-    position: absolute;
+.headerContainer .thumb{ 
     height: 765px;
     background: linear-gradient(180deg, #050626 0%, rgba(2, 2, 15, 0.381395) 21.83%, rgba(0, 1, 4, 0.0988803) 45.62%, rgba(0, 0, 0, 0) 57.12%);
 }
 .headerContainer .thumb img{
     position: absolute;
-    width: 1920px;
+    width: 100%;
     height: 1200px;
     left: 0px;
     top: -170px;
@@ -22,11 +22,10 @@
 }
 
 .headerContainer .headerMenu{
-    position: absolute;
-    width: 1920px;
+    width: 100%;
     height: 104px;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    margin-top: 1px;
     flex-direction: row;
     display: flex;  
     align-self: center;
@@ -34,18 +33,18 @@
 
 .headerContainer .headerMenu .logoP{
     position: absolute;
-    width: 119px;
+    width: 10%;
     height: 80px;
-    left: 359px;
-    top: 12px;
+    left: 3%;
+    top: 1%;
 }
 
 .headerContainer .headerMenu .idioma{
     position: absolute;
-    width: 81px;
+    width: 8%;
     height: 43px;
-    top: 32px;
-    left: 1500px;
+    top: 3%;
+    right: 4%;
 
     border: 1px solid #626262;
     box-sizing: border-box;
@@ -69,7 +68,7 @@
     font-family: Averta;
     font-style: normal;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 1.2rem;
     line-height: 15px;
     letter-spacing: 0.03em;
 
@@ -79,16 +78,15 @@
 .headerContainer .headerMenu .nav {
     display:flex;
     position: absolute;
-    width: 761px;
+    width: 75%;
     height: 49px;
 
-    left: 607px;
+    left: 20%;
     top: 39px;
 }
 
 .headerContainer .headerMenu .nav .lista{
     position: absolute;
-    width: 500px;
     height: 36px;
     display: flex;
     align-items: center;
@@ -112,8 +110,8 @@
     font-family: PT Sans;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
-    line-height: 26px;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
 
     letter-spacing: 0.03em;
 
@@ -130,8 +128,8 @@
     position: absolute;
     left: 559px;
     top: -10px;
-    width: 202px;
-    height:49px;
+    width: 20%;
+    height:100%;
 
     background: #FFFFFF;
     border-radius: 40px;
@@ -142,8 +140,8 @@
     font-family: Averta;
     font-style: normal;
     font-weight: bold;
-    font-size: 12px;
-    line-height: 17px;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
 
     position: static;
     width: 150px;
@@ -162,7 +160,7 @@
 
 .headerContainer .rectangleHeader{
     position: absolute;
-    width: 1920px;
+    width: 100%;
     height: 343px;
     top: 750px;
 
@@ -174,8 +172,8 @@
     width: 607px;
     height: 150px;
     
-    left: 339px;
-    top: 40px;
+    left: 3%;
+    top: 5%;
 }
 
 .headerContainer .rectangleHeader .rectangleText1 h1{
@@ -184,24 +182,24 @@
     font-family: Averta;
     font-style: normal;
     font-weight: bold;
-    font-size: 48px;
-    line-height: 49px;  
+    font-size: 4.8rem;
+    line-height: 4.9rem;  
 }
 
 .headerContainer .rectangleHeader .rectangleText2 {
     position: absolute;
     width: 238px;
     height: 104px;
-    left: 975px;
-    top: 63px;
+    left: 55%;
+    top: 6%;
 }
 
 .headerContainer .rectangleHeader .rectangleText2 h2 {
     font-family: PT Sans;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
-    line-height: 26px;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
     
     letter-spacing: 0.03em;
 
@@ -212,8 +210,8 @@
     position: absolute;
     width: 182px;
     height: 158px;
-    left: 1398px;
-    top: 36px;
+    right: 3%;
+    top: 11%;
 
     background: #2E7BB2;
     border-radius: 8px;
@@ -237,8 +235,8 @@
     font-family: PT Sans;
     font-style: normal;
     font-weight: bold;
-    font-size: 16px;
-    line-height: 26px;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
 
     text-align: center;
     letter-spacing: 0.03em;

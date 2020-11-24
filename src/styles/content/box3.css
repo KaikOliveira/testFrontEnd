@@ -1,10 +1,11 @@
 .contentConteiner .box3 {
     position: absolute;
     background-color: #E5E5E5;
-    width: 1399px;
+    width: 100vw;
+    max-width: 1580px;
     height: 779.46px;
 
-    left: 181px;
+    left: 0%;
     top: 1042px;
 }
 
@@ -18,16 +19,16 @@
     position: absolute;
     width: 500px;
     height: 133px;
-    top:257px;
-    right: 0px;
+    top:270px;
+    right: 20px;
 }
 
 .box3 .title h1{
     font-family: Averta;
     font-style: normal;
     font-weight: bold;
-    font-size: 38px;
-    line-height: 45px;
+    font-size: 3.8rem;
+    line-height: 4.5rem;
     display: flex;
     align-items: center;
     color: #FFBF3F;
@@ -38,7 +39,7 @@
     width: 500px;
     height: 52px;
 
-    right: 0px;
+    right: 15px;
     top: 411px;
 }
 
@@ -46,8 +47,8 @@
     font-family: PT Sans;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
-    line-height: 26px;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
     letter-spacing: 0.03em;
     color: #6A6A57;
 }
@@ -70,8 +71,8 @@
     font-family: Averta;
     font-style: normal;
     font-weight: bold;
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
  
     display: flex;
     align-items: center;

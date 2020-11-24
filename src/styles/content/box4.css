@@ -1,10 +1,11 @@
 .contentConteiner .box4 {
     position: absolute;
-    width: 1772px;
+    width: 100vw;
+    max-width: 1580px;
     height: 546px;
-
+    background-color: #E5E5E5;
     top: 1822px;
-    left: 339px;
+    left: 0%;
 }
 
 .box4 .content1{
