@@ -1,8 +1,9 @@
 .contentConteiner .box7 {
     position: absolute;
-    width: 1920px;
+    width: 100vw;
+    max-width: 1580px;
     height: 520px;
-    top: 3587px;
+    top: 3347px;
     background-color: #E5E5E5;
 }
 
@@ -10,8 +11,8 @@
     position: absolute;
     width: 422px;
     height: 223px;
-    top: 104px;
-    left: 395px;
+    top: 13%;
+    left: 12%;
 }
 .box7 .description .title{
     position: absolute;
@@ -24,8 +25,8 @@
     font-family: Averta;
     font-style: normal;
     font-weight: bold;
-    font-size: 38px;
-    line-height: 45px;
+    font-size: 3.8rem;
+    line-height: 4.5rem;
 
     color: #FA4616;
 }
@@ -40,8 +41,8 @@
     font-family: PT Sans;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
-    line-height: 26px;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
     
     letter-spacing: 0.03em;
     color: #6A6A57;
@@ -64,8 +65,8 @@
     font-family: Averta;
     font-style: normal;
     font-weight: bold;
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
 
     letter-spacing: 0.15em;
     text-transform: uppercase;
@@ -76,5 +77,5 @@
     width: 440px;
     height: 463px;
     top: 24px;
-    right: 478px;
+    right: 23%;
 }

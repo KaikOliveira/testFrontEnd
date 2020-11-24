@@ -1,9 +1,11 @@
 .contentConteiner .box5{
     position: absolute;
-    width: 1901px;
+    width: 100vw;
+    max-width: 1580px;
     height: 321px;
-    top:2468px;
-    left: 210px;
+    top:2328px;
+    left: 0%;
+    background-color: #E5E5E5;
 }
 
 .box5 .fundo {
